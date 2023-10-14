@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-practice-indianec-1": {
+    "angular-practice-beginner-concepts": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {

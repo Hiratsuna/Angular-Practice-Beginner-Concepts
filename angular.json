@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-practice-indianec-1",
+            "outputPath": "dist/Angular-Practice-Beginner-Concepts",
+            "baseHref" : "/Angular-Practice-Beginner-Concepts/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [

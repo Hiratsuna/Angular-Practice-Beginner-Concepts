@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  angularpracticebeginnerconcepts:
+    image: angularpracticebeginnerconcepts
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 54406:54406

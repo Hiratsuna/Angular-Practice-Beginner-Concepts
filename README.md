@@ -86,3 +86,8 @@
 >>>>>>> then you further import it into the `imports: []` array as FormsModule & include it on the top if your IDE doesn't automatically 
 >>>>>>> ![image](https://user-images.githubusercontent.com/130181277/275285333-d2b0d8d6-a918-4528-b2e3-e9a6e6c2953d.png)
 >>>>>>>> Login returns errors for empty fields and wrong inputs. Right credentials are username: babati, password: pizza
+---
+>> Tried to setup Docker on the [docker-fail](https://github.com/Hiratsuna/Angular-Practice-Beginner-Concepts/tree/docker-fail) branch, but ran into some incompatibility issues with my system and the Docker Toolbox, so I decided to scrap that away for now and may pick it up later, cause it might end up costing me more time than I am prepared to give for it *AT THIS STAGE*
+>>> Did some brainstorming with Chat GPT regarding alternative software I can use to setup the containers without downloading Docker Desktop, cause I want to avoid that at all costs, so if you are curious about that it's [Here](https://chat.openai.com/share/429629ac-77de-4f56-8a4a-ede6d77f3925). Can't guarantee if it's totally relevant, though. Just fyi. 
+>>
+>

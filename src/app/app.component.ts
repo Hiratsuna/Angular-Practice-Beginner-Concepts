@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-practice-indianec-1';
+  title = 'Angular-Practice-Beginner-Concepts';
 }

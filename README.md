@@ -1,6 +1,6 @@
-# AngularPracticeIndianec1
+# Angular Practice
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+*This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.*
 
 ## Development server
 
@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
--- 
+---
 
 ## Angular Concept Implementation Beginner Project on YouTube & Reference Cheat Sheet For Personal Use
 
@@ -62,6 +62,7 @@ ng generate component baba-ti
 > ./app/app-routing.module.ts
 > import the component in the top and add directory ``` import { BabaTiComponent } from './babati/babati.component'; ```
 > then in the const routes: Routes = [ Array ]  <- in the array write the pathings like ``` { path: 'babati', component: BabaTiComponent }, {..} ```
+## Login
 > ``` { path: '', redirectTo: 'login', pathMatch: 'full' }, ``` if you wanna redirect to login (if u have a login to redirect to it), its part of the logic 
 >> also this ``` { path: '**', component: LoginComponent } ``` because the indian guy in the tutorial said so but didnt really explain why 
 >>> ! HE ALSO SAID IT HAS TO BE THE **LAST** ROW ALWAYS
@@ -73,4 +74,4 @@ ng generate component baba-ti
 >>>>>> it's syntax is inserted directly into the tag: <input type="text" name="uname" class="form-control" [(ngModel)]="username"/>
 >>>>>>> then you further import it into the `imports: []` array as FormsModule & include it on the top if your IDE doesn't automatically 
 >>>>>>> ![image](https://user-images.githubusercontent.com/130181277/275285333-d2b0d8d6-a918-4528-b2e3-e9a6e6c2953d.png)
->>>>>>> 
+>>>>>>>> Login returns errors for empty fields and wrong inputs. Right credentials are username: babati, password: pizza

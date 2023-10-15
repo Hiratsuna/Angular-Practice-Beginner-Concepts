@@ -43,9 +43,18 @@
       "label": "docker-build",
       "platform": "node",
       "dockerBuild": {
+<<<<<<< Updated upstream
         "dockerfile": "${workspaceFolder}/Dockerfile",
         "context": "${workspaceFolder}",
         "pull": true
+=======
+        "dockerfile": "${workspaceFolder}/node_modules/webpack-dev-server/Dockerfile",
+        "context": "${workspaceFolder}/node_modules/webpack-dev-server",
+        "pull": true
+      },
+      "node": {
+        "package": "${workspaceFolder}/node_modules/webpack-dev-server/package.json"
+>>>>>>> Stashed changes
       }
     },
     {
@@ -54,7 +63,14 @@
       "dependsOn": [
         "docker-build"
       ],
+<<<<<<< Updated upstream
       "platform": "node"
+=======
+      "platform": "node",
+      "node": {
+        "package": "${workspaceFolder}/node_modules/webpack-dev-server/package.json"
+      }
+>>>>>>> Stashed changes
     },
     {
       "type": "docker-run",
@@ -69,6 +85,10 @@
         }
       },
       "node": {
+<<<<<<< Updated upstream
+=======
+        "package": "${workspaceFolder}/node_modules/webpack-dev-server/package.json",
+>>>>>>> Stashed changes
         "enableDebugging": true
       }
     }

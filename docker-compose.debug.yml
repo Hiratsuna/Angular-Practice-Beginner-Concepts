@@ -1,14 +1,27 @@
 version: '3.4'
 
 services:
+<<<<<<< Updated upstream
   angularpracticebeginnerconcepts:
     image: angularpracticebeginnerconcepts
     build:
       context: .
+=======
+  webpackdevserver:
+    image: webpackdevserver
+    build:
+      context: node_modules/webpack-dev-server
+>>>>>>> Stashed changes
       dockerfile: ./Dockerfile
     environment:
       NODE_ENV: development
     ports:
+<<<<<<< Updated upstream
       - 54406:54406
       - 9229:9229
     command: ["node", "--inspect=0.0.0.0:9229", "index.js"]
+=======
+      - 4200:4200
+      - 9229:9229
+    command: ["node", "--inspect=0.0.0.0:9229", "lib/Server.js"]
+>>>>>>> Stashed changes

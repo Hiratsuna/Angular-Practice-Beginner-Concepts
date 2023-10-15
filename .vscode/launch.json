@@ -21,7 +21,15 @@
       "type": "docker",
       "request": "launch",
       "preLaunchTask": "docker-run: debug",
+<<<<<<< Updated upstream
       "platform": "node"
+=======
+      "platform": "node",
+      "node": {
+        "package": "${workspaceFolder}/node_modules/webpack-dev-server/package.json",
+        "localRoot": "${workspaceFolder}/node_modules/webpack-dev-server"
+      }
+>>>>>>> Stashed changes
     }
   ]
 }

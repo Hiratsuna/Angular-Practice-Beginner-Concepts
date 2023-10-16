@@ -30,31 +30,41 @@
         .cover {
           img {
             border-radius: 5px;
+            height: 300px;
+            width: 200px;
+            display: inline;
+            align-items: center;
           }
         }
         .detail {
-          width: 100%;
+          width: 10rem;
           .name {
+            color: skyblue;
+            display: inline;
+            text-align: center;
+            font-size: 14px;
             font-weight: bold;
-            height: 50px;
-            margin-top: 5px;
+            height: 25px;
+            font-family: katakana;
+            margin-top: 15px;
             cursor: pointer;
           }
-          .rating {
-            i {
-              font-size: 1.5rem;
-              padding-right: 0.1rem;
-              color: #b0c4de;
-            }
-            .filled {
-              color: #ff0095;
-            }
-            .low {
-              color: #deb0b0;
-            }
-            .filled.low {
-              color: #ff1e1e;
-            }
+        }
+        .rating {
+          i {
+            display: grid;
+            font-size: 1.8rem;
+            color: #b0c4de;
+            justify-content: baseline;
+          }
+          .filled {
+            color: #ff91d1;
+          }
+          .low {
+            color: #efff63;
+          }
+          .filled.low {
+            color: #ff1e1e;
           }
         }
       }

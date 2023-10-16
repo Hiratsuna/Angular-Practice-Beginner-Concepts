@@ -103,3 +103,5 @@
 - Home;
 - Header attachment for the component
 - Bootstrap
+>
+>> Had some fun with midjourney to generate whole new movie thumbnails and made chatgpt name them ![Alt text](image.png)

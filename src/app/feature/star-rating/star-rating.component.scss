@@ -1,0 +1,17 @@
+.rating {
+  i {
+    display: grid;
+    font-size: 1.8rem;
+    color: #b0c4de;
+    justify-content: baseline;
+  }
+  .filled {
+    color: #ff91d1;
+  }
+  .low {
+    color: #efff63;
+  }
+  .filled.low {
+    color: #ff1e1e;
+  }
+}

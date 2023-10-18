@@ -105,3 +105,6 @@
 - Bootstrap
 >
 >> Had some fun with midjourney to generate whole new movie thumbnails and made chatgpt name them ![Alt text](image.png)
+>>> ```ng g m >name<``` to generate a new module
+>>>> ```ng g m 'module name'/'component name'```  - when generating a component for a module u use module/component-name syntax for the command
+>>> [For the Rating](https://ng-bootstrap.github.io/#/components/rating/examples)

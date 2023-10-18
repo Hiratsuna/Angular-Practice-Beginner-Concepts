@@ -45,26 +45,8 @@
             font-size: 14px;
             font-weight: bold;
             height: 25px;
-            font-family: katakana;
             margin-top: 15px;
             cursor: pointer;
-          }
-        }
-        .rating {
-          i {
-            display: grid;
-            font-size: 1.8rem;
-            color: #b0c4de;
-            justify-content: baseline;
-          }
-          .filled {
-            color: #ff91d1;
-          }
-          .low {
-            color: #efff63;
-          }
-          .filled.low {
-            color: #ff1e1e;
           }
         }
       }

@@ -10,7 +10,7 @@ export class StarRatingComponent implements OnInit {
   @Input() rating: any;
   @Input() isReadOnly: boolean = false;
 
-  constructor() { }
+  constructor() { /* TODO document why this constructor is empty */  }
 
   ngOnInit(): void {
     // TODO document why this method 'ngOnInit' is empty

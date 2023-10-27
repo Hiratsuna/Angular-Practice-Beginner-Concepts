@@ -86,3 +86,25 @@
 >>>>>>> then you further import it into the `imports: []` array as FormsModule & include it on the top if your IDE doesn't automatically 
 >>>>>>> ![image](https://user-images.githubusercontent.com/130181277/275285333-d2b0d8d6-a918-4528-b2e3-e9a6e6c2953d.png)
 >>>>>>>> Login returns errors for empty fields and wrong inputs. Right credentials are username: babati, password: pizza
+---
+>> Tried to setup Docker on the [docker-fail](https://github.com/Hiratsuna/Angular-Practice-Beginner-Concepts/tree/docker-fail) branch, but ran into some incompatibility issues with my system and the Docker Toolbox, so I decided to scrap that away for now and may pick it up later, cause it might end up costing me more time than I am prepared to give for it *AT THIS STAGE*
+>>> Did some brainstorming with Chat GPT regarding alternative software I can use to setup the containers without downloading Docker Desktop, cause I want to avoid that at all costs, so if you are curious about that it's [Here](https://chat.openai.com/share/429629ac-77de-4f56-8a4a-ede6d77f3925). Can't guarantee if it's totally relevant, though. Just fyi. 
+>>
+> Also tried to deploy the Angular app itself following [this](https://www.focisolutions.com/2020/04/github-actions-deploying-an-angular-app/) tutorial and another one that deployed it with the cli creating a /dist directory, but after a few hours of breaking things and trying to make it work - the [site](https://hiratsuna.github.io/Angular-Practice-Beginner-Concepts/) got deployed from the ReadMe.md file on the gh-pages branch, which is a bit behind on `main` at this point.
+>> 
+>>> moving on with the application components =D 
+>> 
+> 
+>> '*ngFor'
+>>> Property Binding <img [src]>
+>> 
+> Needs documenting:
+- HttpModule;
+- Home;
+- Header attachment for the component
+- Bootstrap
+>
+>> Had some fun with midjourney to generate whole new movie thumbnails and made chatgpt name them ![Alt text](image.png)
+>>> ```ng g m >name<``` to generate a new module
+>>>> ```ng g m 'module name'/'component name'```  - when generating a component for a module u use module/component-name syntax for the command
+>>> [For the Rating](https://ng-bootstrap.github.io/#/components/rating/examples)

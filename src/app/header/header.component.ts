@@ -1,25 +1,26 @@
-import { Component } from '@angular/core';
-import { AuthService } from '../services/auth.service';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core';  // Importing the Component decorator from Angular core.
+import { AuthService } from '../services/auth.service';  // Importing the AuthService for authentication.
+import { Router } from '@angular/router';  // Importing the Router for navigation.
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  selector: 'app-header',  // The component's selector used in HTML templates.
+  templateUrl: './header.component.html',  // The HTML template file for this component.
+  styleUrls: ['./header.component.scss']  // The styles or CSS file for this component.
 })
 export class HeaderComponent {
 
-  constructor(private router: Router, private auth: AuthService) { }
+  constructor(private router: Router, private auth: AuthService) {  // Constructor for the HeaderComponent, injecting Router and AuthService.
+  }
 
   ngOnInit(): void {
   }
 
-  goToHome() {
-    this.router.navigate(['home']);
+  goToHome() {  // Custom method to navigate to the home page.
+    this.router.navigate(['home']);  // Using the Router service to navigate to the 'home' route.
   }
 
-  logout() {
-    this.auth.logout();
+  logout() {  // Custom method to log out the user.
+    this.auth.logout();  // Calling the `logout` method from the AuthService.
   }
-
 }
+

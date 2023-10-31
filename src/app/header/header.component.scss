@@ -1,22 +1,24 @@
 .header-container {
-  width: 100%;
-  height: 80px;
-  background-color: pink;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 100%;  // Set the width of the header container to 100%.
+  height: 80px;  // Set the height of the header container to 80 pixels.
+  background-color: pink;  // Set the background color of the header container to pink.
+  display: flex;  // Use Flexbox for layout.
+  align-items: center;  // Center-align items vertically within the header container.
+  justify-content: space-between;  // Create space between items, aligning them at the beginning and end.
 }
+
 .logo {
-  font-size: 24px;
-  font-weight: bold;
-  font-family: 'Creepster', cursive;
-  letter-spacing: 4px;
-  margin-left: 40px;
-  cursor: pointer;
+  font-size: 24px;  // Set the font size to 24 pixels for the "logo" class.
+  font-weight: bold;  // Apply a bold font weight.
+  font-family: 'Creepster', cursive;  // Use the 'Creepster' font family with a fallback to cursive fonts.
+  letter-spacing: 4px;  // Add 4 pixels of letter spacing.
+  margin-left: 40px;  // Apply a left margin of 40 pixels.
+  cursor: pointer;  // Change the cursor to a pointer on hover, indicating interactivity.
 }
+
 .logout {
-  font-size: 18px;
-  font-weight: bold;
-  margin-right: 40px;
-  cursor: pointer;
+  font-size: 18px;  // Set the font size to 18 pixels for the "logout" class.
+  font-weight: bold;  // Apply a bold font weight.
+  margin-right: 40px;  // Apply a right margin of 40 pixels.
+  cursor: pointer;  // Change the cursor to a pointer on hover, indicating interactivity.
 }

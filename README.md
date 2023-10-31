@@ -108,3 +108,5 @@
 >>> ```ng g m >name<``` to generate a new module
 >>>> ```ng g m 'module name'/'component name'```  - when generating a component for a module u use module/component-name syntax for the command
 >>> [For the Rating](https://ng-bootstrap.github.io/#/components/rating/examples)
+>>>>
+>>>> **Update: 31/10/2023 -- Soo I have added documentation inside the code with SenpAI, as I made him comment notes inside. Will probably document them here in the README somehow when it's finished. o/

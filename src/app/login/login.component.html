@@ -1,25 +1,34 @@
+<!-- Login container -->
 <div class="login-container">
+  <!-- Film image -->
   <img class="film" src="assets/images/film.png" alt="doggo">
-  <div class="logo">MovieFlix
-  </div>
+  <!-- MovieFlix logo -->
+  <div class="logo">MovieFlix</div>
+  <!-- Description -->
   <div class="desc">
     "Welcome to MovieFlix, your one-stop destination for all things cinema!
     Explore a wide range of movie titles, from classic gems to the latest
     blockbusters. Browse through our collection, discover movie details, and
     stay updated on upcoming releases. Enjoy a seamless movie-watching
     experience with MovieFlix, your go-to source for cinematic delight."
-  <p> - Chat GPT
+    <p> - Chat GPT</p>
   </div>
+  <!-- Login form -->
   <div class="login-form">
+    <!-- Username input -->
     <div class="form-group">
       <label for="uname">Username</label>
       <input type="text" name="uname" class="form-control" [(ngModel)]="username"/>
     </div>
+    <!-- Password input -->
     <div class="form-group">
       <label for="pword">Password</label>
       <input type="password" name="pword" class="form-control" [(ngModel)]="password"/>
+      <!-- Button container -->
       <div class="btn-container">
+        <!-- Error message -->
         <div class="error">{{ errorMsg }}</div>
+        <!-- Login button -->
         <button class="btn btn-dark" (click)="login()">Login</button>
       </div>
     </div>

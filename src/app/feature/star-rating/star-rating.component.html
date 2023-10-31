@@ -1,12 +1,19 @@
+<!-- Define a template with the name "t" and a local variable "fill" -->
 <ng-template #t let-fill="fill">
   <i class="bi-heart-fill">
+    <!-- Display filled hearts when "fill" is greater than 0 -->
     <i *ngIf="fill > 0" class="bi-heart-fill filled" [style.width.%]="fill">&hearts;</i>
   </i>
 </ng-template>
 
+<!-- NgbRating component configuration -->
 <ngb-rating
-[(rate)]="rating"
-[starTemplate]="t"
-[readonly]="true"
-[max]="5"
+  <!-- Bind the "rating" property to the rating value -->
+  [(rate)]="rating"
+  <!-- Set the star template to "t" for customized star display -->
+  [starTemplate]="t"
+  <!-- Make the rating component read-only -->
+  [readonly]="true"
+  <!-- Set the maximum rating value to 5 -->
+  [max]="5"
 ></ngb-rating>
